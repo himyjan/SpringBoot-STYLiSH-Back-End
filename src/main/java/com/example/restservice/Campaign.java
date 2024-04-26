@@ -1,4 +1,4 @@
-﻿@Entity
+@Entity
 @Table(name = "Campaign")
 public class Campaign {
     @Id

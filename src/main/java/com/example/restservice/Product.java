@@ -1,7 +1,6 @@
-﻿@Entity
+@Entity
 @Table(name = "Product")
-public class Product
-{
+public class Product {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
     public Long Id;

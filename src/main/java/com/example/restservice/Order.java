@@ -1,4 +1,4 @@
-﻿@Entity
+@Entity
 @Table(name = "Order")
 public class Order {
     @Id

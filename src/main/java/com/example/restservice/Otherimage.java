@@ -1,4 +1,4 @@
-﻿@Entity
+@Entity
 @Table(name = "Otherimage")
 public class Otherimage {
     @Id

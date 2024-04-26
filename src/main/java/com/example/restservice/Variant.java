@@ -1,4 +1,4 @@
-﻿@Entity
+@Entity
 @Table(name = "Variant")
 public class Variant {
     @Id
