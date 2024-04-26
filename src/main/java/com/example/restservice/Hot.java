@@ -1,3 +1,7 @@
+package com.example.restservice;
+
+import jakarta.persistence.Entity;
+
 @Entity
 @Table(name = "Hot")
 public class Hot {

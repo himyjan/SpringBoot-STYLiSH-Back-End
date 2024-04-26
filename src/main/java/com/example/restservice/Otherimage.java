@@ -1,3 +1,7 @@
+package com.example.restservice;
+
+import jakarta.persistence.Entity;
+
 @Entity
 @Table(name = "Otherimage")
 public class Otherimage {
