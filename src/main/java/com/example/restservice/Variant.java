@@ -1,6 +1,7 @@
 package com.example.restservice;
 
 import jakarta.persistence.Entity;
+import jakarta.persistence.Table;
 import jakarta.persistence.GeneratedValue;
 import jakarta.persistence.GenerationType;
 import jakarta.persistence.Id;
@@ -14,7 +15,7 @@ public class Variant {
 
     public String Size;
 
-    public Integereger Stock;
+    public Integer Stock;
 
     public Long Id;
 
