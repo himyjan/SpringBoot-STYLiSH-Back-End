@@ -10,15 +10,15 @@ import jakarta.persistence.Id;
 public class Order {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public Int UserId;
+    public Integer UserId;
 
     public String Time;
 
-    public Int Total;
+    public Integer Total;
 
     public String UserOrders;
 
-    public Int OrderId;
+    public Integer OrderId;
 
     public String PayOrders;
 

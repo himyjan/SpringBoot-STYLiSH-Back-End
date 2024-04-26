@@ -10,7 +10,7 @@ import jakarta.persistence.Id;
 public class User {
     @Id
     @GeneratedValue(strategy = GenerationType.AUTO)
-    public int Id;
+    public Integer Id;
 
     public String Provider;
 

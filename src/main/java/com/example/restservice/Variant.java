@@ -14,7 +14,7 @@ public class Variant {
 
     public String Size;
 
-    public Int Stock;
+    public Integereger Stock;
 
     public Long Id;
 

@@ -16,7 +16,7 @@ public class Product {
 
     public String Description;
 
-    public Int Price;
+    public Integer Price;
 
     public String Texture;
 
