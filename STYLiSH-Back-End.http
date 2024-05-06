@@ -1,0 +1,14 @@
+@Back_End_HostAddress = http://localhost:8080
+
+GET {{Back_End_HostAddress}}/api/1.0/marketing/campaigns
+Accept: application/json
+
+###
+
+GET {{Back_End_HostAddress}}/api/1.0/products/all?paging=1
+Accept: application/json
+
+###
+
+GET {{Back_End_HostAddress}}/api/1.0/products/men?paging=0
+Accept: application/json
